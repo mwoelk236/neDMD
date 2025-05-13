@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 from sklearn.metrics import mean_squared_error
-from statsmodels.tsa.stattools import acf
 plt.rcParams['figure.dpi'] = 150
 import time
 
