@@ -55,7 +55,6 @@ time_step = 0.1  # Time step, tau
 t_eval = np.arange(t_start, t_end + time_step, time_step) 
 t_span = (t_start, t_end)
 
-
 n_traj = 20 #Number of trajectories to simulate
 
 H1 = 5.25 #Liquid holdup x1 [=] mol
@@ -86,7 +85,6 @@ for i in range(n_traj):
 
     output_folder = f'State Data'
     os.makedirs(output_folder, exist_ok=True)
-
 
     #Plotting 
     plt.figure()
