@@ -97,8 +97,6 @@ for i in range(n_traj):
     plt.xlim(0,t_end)
     plt.ylim(0.0,1.0)
     plt.legend()
-    #plot_filename = f'SystemTrajectory_withNoise_{i}.png'
-    #plot_filename = f'SystemTrajectory_withNoise.png'
     plot_filename = f'SystemTrajectory.png'
     plt.savefig(os.path.join(output_folder, plot_filename))
 
